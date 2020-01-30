@@ -279,7 +279,7 @@ element)]]></text>
 			</line>
 			<frame>
 				<reportElement x="227" y="0" width="328" height="20" uuid="dec77cf2-1014-4b3e-9934-7f0c65a83bce"/>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<textField>
 					<reportElement style="Detail" positionType="Float" x="0" y="0" width="65" height="18" uuid="e6288a54-f673-4ee5-a61d-a024b124cb22">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="03a8ad64-0938-4232-9476-4ee6c517cb75"/>
 					</reportElement>
@@ -288,7 +288,7 @@ element)]]></text>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
 				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<textField>
 					<reportElement style="Detail" positionType="Float" x="65" y="0" width="65" height="18" uuid="584ff00e-bb1e-4d61-b3ef-70f8e405caa6">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b45c826a-d6c5-42e3-a155-e480eaa9ef01"/>
 					</reportElement>
@@ -297,7 +297,7 @@ element)]]></text>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{fecha_actualizacion}]]></textFieldExpression>
 				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<textField>
 					<reportElement style="Detail" positionType="Float" x="130" y="0" width="65" height="18" uuid="a108742c-c269-4fdd-beab-15823d175d5b">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="df35ddd1-1a39-4a4c-9439-dc9953d20030"/>
 					</reportElement>
@@ -315,7 +315,7 @@ element)]]></text>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
 				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<textField>
 					<reportElement style="Detail" positionType="Float" x="260" y="0" width="65" height="18" uuid="305b2997-f260-471e-9ef7-a13c6fc4aae7">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6467fb34-42f6-455f-8d47-8e5f0b35c8a9"/>
 					</reportElement>
