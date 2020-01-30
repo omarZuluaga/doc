@@ -306,7 +306,7 @@ element)]]></text>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{fecha_creacion}]]></textFieldExpression>
 				</textField>
-				<textField textAdjust="StretchHeight" isBlankWhenNull="true">
+				<textField>
 					<reportElement style="Detail" positionType="Float" x="195" y="0" width="65" height="18" uuid="4e81a8dc-0904-43ef-b01b-918ea8ba4746">
 						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b5cd89b7-dd42-4291-b100-2446e4640136"/>
 					</reportElement>
